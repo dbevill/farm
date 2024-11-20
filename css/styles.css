@@ -1,5 +1,5 @@
 /* -------------------- IMPORTED FONTS -------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
 
 /*-------------------- CSS RESET --------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -53,17 +53,62 @@ table {
 
 /* -------------------- ROOT VARIABLES  -------------------- */
 :root {
-    font-family: "Habibi", serif;
+    font-family: "Habibi", "Irish Grover", serif;
     font-size: 1.25em;
     --green:#06A816;
     --orange:#E75D02;
     --black:#000000;
     --white:#ffffff;
 }
-
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-*{
-    font-family: "Habibi", "Irish Grover";
+header, footer{
+    background-color: #06A816;
+    margin: 0;
+}
+nav{
+    display: grid;
+    float: right;
+}
+nav li{
+    display: inline-block;
+    background-color: #E75D02;
+    padding: 15px 75px;
+    border-radius: 4px;
+    /*float: right;*/
+}
+nav a{
+    color: #ffffff;
+}
+nav h2{
+    visibility: hidden;
+}
+[href="#top"]{
+    position: fixed;
+    bottom: 0px;
+    background-color: #E75D02;
+    right: 15px;
+    color: #ffffff;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: "Habibi";
+}
+h1,h2, h3{
+    font-family: "Irish Grover";
+}
+section{
+    display: grid;
+}
+section{
+    display: grid;
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
