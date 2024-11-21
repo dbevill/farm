@@ -69,16 +69,23 @@ html{
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 header, footer{
     background-color: #06A816;
-    margin: 0;
 }
 nav li{
     background-color: #E75D02;
     padding: 15px 75px;
     border-radius: 4px;
     display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    bottom: 150px;
+    left: 875px;
+    border: 1px solid #ffffff;
+    gap: 2rem;
 }
 nav a{
     color: #ffffff;
+    text-decoration: none;
+    border: #ffffff;
 }
 nav h2{
     visibility: hidden;
@@ -89,16 +96,31 @@ nav h2{
     background-color: #E75D02;
     right: 15px;
     color: #ffffff;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    bottom: 5px;
+    padding: 10px 3px;
+    border-radius: 4px;
+    z-index: 1;
 }
 img{
     max-width: 100%;
 }
 figcaption{
     position: relative;
-    bottom: 150px;
+    bottom: 160px;
+    left: 80px;
+    text-align: center; 
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.75;
+    width: 140px;
+    height: 40px;
+    padding-top: 10px;
 }
 body{
     font-family: "Habibi";
+    width: 100%;
 }
 h1,h2, h3{
     font-family: "Irish Grover";
@@ -107,7 +129,8 @@ header{
     color: #ffffff;
     padding-top: 15px;
     padding-bottom: 20px;
-    padding-left: 10px;
+}header p{
+    font-style: italic;
 }
 h3{
     font-size: 1.25em;
@@ -117,6 +140,8 @@ h3{
 h1{
     font-size: 2.5em;
     padding-bottom: 20px;
+    padding-left: 10px;
+    text-shadow: 2px 2px #000000;
 }
 h2{
     font-size: 1.75em;
@@ -128,32 +153,36 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding: 30px;
-
+    padding: 25px;
 }
 #veggiesforsale{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding: 30px;
+    padding: 25px;
 }
-footer{
+P{
+    padding-left: 10px;
+}
+#businessinfo{
     display: grid;
     color: #ffffff;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 20px;
+    grid-template-columns: 250px 250px 250px 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
+    justify-content: space-around;
 }
 address{
     text-align: center;
+}
+footer h2{
+    padding-left: 10px;
 }
 dl{
     text-align: center;
 }
 dt{
-    /*display: grid;
-    grid-template-columns: 1fr;*/
     float: left;
     width: 25%;
     margin: 0;
@@ -165,7 +194,10 @@ dd{
 }
 footer p{
     text-align: center;
-    color: #ffffff;
+    color:#06A816;
+    background-color: #ffffff;
+    position: relative;
+
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
