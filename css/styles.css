@@ -67,6 +67,9 @@ html{
     box-sizing: inherit;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 header, footer{
     background-color: #06A816;
 }
@@ -80,12 +83,12 @@ nav li{
     bottom: 150px;
     left: 875px;
     border: 1px solid #ffffff;
-    gap: 2rem;
 }
 nav a{
     color: #ffffff;
     text-decoration: none;
     border: #ffffff;
+    justify-content: space-between;
 }
 nav h2{
     visibility: hidden;
@@ -199,6 +202,3 @@ footer p{
     position: relative;
 
 }
-/*-------------------- MEDIA QUERY (medium) --------------------------------*/
-/*-------------------- MEDIA QUERY (large) ------------------------------------*/
-/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
