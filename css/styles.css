@@ -67,9 +67,162 @@ html{
     box-sizing: inherit;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+@media screen and (min-width: 428px){
+    header, footer{
+        background-color: #06A816;
+    }
+    }
+    nav li{
+        background-color: #E75D02;
+        padding: 15px;
+        border-radius: 4px;
+        display: block;
+        border: 1px solid #ffffff;
+        text-align: center;
+        max-width: 310px;
+        position: relative;
+        left: 100px;
+        margin-bottom: 20px;
+    }
+    nav a{
+        color: #ffffff;
+        text-decoration: none;
+        border: #ffffff;
+        padding: 15px;
+    }
+    nav h2{
+        visibility: hidden;
+        /*margin: none;*/
+        max-height: 0px;
+    }
+    [href="#top"]{
+        position: fixed;
+        bottom: 0px;
+        background-color: #E75D02;
+        right: 15px;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        text-decoration: none;
+        bottom: 5px;
+        padding: 10px 3px;
+        border-radius: 4px;
+        z-index: 1;
+    }
+    img{
+        max-width: 100%;
+    }
+    figcaption{
+        position: relative;
+        bottom: 180px;
+        left: 145px;
+        text-align: center; 
+        color: #ffffff;
+        background-color: #000000;
+        opacity: 0.75;
+        width: 140px;
+        height: 40px;
+        padding-top: 10px;
+    }
+    body{
+        font-family: "Habibi";
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h1,h2, h3{
+        font-family: "Irish Grover";
+    }
+    header{
+        color: #ffffff;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    header p{
+        font-style: italic;
+    }
+    h3{
+        font-size: 1.25em;
+        text-align: center;
+        padding-top: 15px;
+    }
+    h1{
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        text-shadow: 2px 2px #000000;
+    }
+    h2{
+        font-size: 1.75em;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    #fruitsforsale{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 25px;
+        text-align: center;
+    }
+    #veggiesforsale{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 25px;
+        text-align: center;
+    }
+    P{
+        padding-left: 10px;
+    }
+    #businessinfo{
+        display: grid;
+        color: #ffffff;
+        grid-template-columns: 350px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    address{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    footer h2{
+        padding-left: 10px;
+    }
+    dl{
+        text-align: center;
+    }
+    dt{
+        float: left;
+        width: 25%;
+        margin: 0;
+        text-align: center;
+    }
+    dd{
+        float: left;
+        width: 75%;
+
+    }
+    footer p{
+        text-align: center;
+        color:#06A816;
+        background-color: #ffffff;
+        position: relative;
+    
+    }   
+}
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media screen and (min-width: 834px){
+
+}
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media screen and (min-width: 1280px){
+
+}
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+/*@media screen and (min-width: 1440px){
+
+}
 header, footer{
     background-color: #06A816;
 }
@@ -201,4 +354,4 @@ footer p{
     background-color: #ffffff;
     position: relative;
 
-}
+}*/
