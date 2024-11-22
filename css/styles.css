@@ -71,7 +71,6 @@ html{
     header, footer{
         background-color: #06A816;
     }
-    }
     nav li{
         background-color: #E75D02;
         padding: 15px;
@@ -92,7 +91,6 @@ html{
     }
     nav h2{
         visibility: hidden;
-        /*margin: none;*/
         max-height: 0px;
     }
     [href="#top"]{
@@ -212,17 +210,285 @@ html{
     }   
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-@media screen and (min-width: 834px){
-
+@media screen and (min-width: 834px){  
+header, footer{
+    background-color: #06A816;
+}
+nav li{
+    background-color: #E75D02;
+    padding: 15px 100px;
+    border-radius: 4px;
+    display: inline-block;
+    justify-content: space-evenly;
+    position: relative;
+    left: 75px;
+    border: 1px solid #ffffff;
+    margin-right: 100px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    border: #ffffff;
+    justify-content: space-between;
+}
+nav h2{
+    visibility: hidden;
+}
+[href="#top"]{
+    position: fixed;
+    bottom: 0px;
+    background-color: #E75D02;
+    right: 15px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    bottom: 5px;
+    padding: 10px 3px;
+    border-radius: 4px;
+    z-index: 1;
+}
+img{
+    max-width: 100%;
+}
+figcaption{
+    position: relative;
+    bottom: 175px;
+    left: 150px;
+    text-align: center; 
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.75;
+    width: 140px;
+    height: 40px;
+    padding-top: 10px;
+}
+body{
+    font-family: "Habibi";
+    width: 100%;
+}
+h1,h2, h3{
+    font-family: "Irish Grover";
+}
+header{
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}header p{
+    font-style: italic;
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+h3{
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 15px;
+}
+h1{
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px #000000;
+    text-align: left;
+}
+h2{
+    font-size: 1.75em;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+#fruitsforsale{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 15px;
+}
+#veggiesforsale{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 25px;
+}
+P{
+    padding-left: 10px;
+}
+#businessinfo{
+    display: grid;
+    color: #ffffff;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    text-align: center;
+}
+address{
+    text-align: center;
+}
+footer h2{
+    padding-left: 10px;
+    order: -1;
+}
+dl{
+    text-align: center;
+}
+dt{
+    float: left;
+    width: 25%;
+    margin: 0;
+}
+dd{
+    float: left;
+    width: 75%;
+    margin: 0;
+}
+footer p{
+    text-align: center;
+    color:#06A816;
+    background-color: #ffffff;
+    position: relative;
+}
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 1280px){
-
+header, footer{
+    background-color: #06A816;
+}
+nav li{
+    background-color: #E75D02;
+    padding: 15px 75px;
+    border-radius: 4px;
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    bottom: 120px;
+    left: 735px;
+    border: 1px solid #ffffff;
+    margin-right: 10px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    border: #ffffff;
+    justify-content: space-between;
+}
+nav h2{
+    visibility: hidden;
+    max-height: 0px;
+}
+[href="#top"]{
+    position: fixed;
+    bottom: 0px;
+    background-color: #E75D02;
+    right: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    bottom: 5px;
+    padding: 10px 3px;
+    border-radius: 4px;
+    z-index: 1;
+}
+img{
+    max-width: 100%;
+}
+figcaption{
+    position: relative;
+    bottom: 160px;
+    left: 80px;
+    text-align: center; 
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.75;
+    width: 140px;
+    height: 40px;
+    padding-top: 10px;
+}
+body{
+    font-family: "Habibi";
+    width: 100%;
+}
+h1,h2, h3{
+    font-family: "Irish Grover";
+}
+header{
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 20px;  
+}
+header p{
+    font-style: italic;
+    right: 500px;
+}
+h3{
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 15px;
+}
+h1{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-shadow: 2px 2px #000000;
+}
+h2{
+    font-size: 1.75em;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+#fruitsforsale{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 25px;
+}
+#veggiesforsale{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 25px;
+}
+P{
+    padding-left: 10px;
+}
+#businessinfo{
+    display: grid;
+    color: #ffffff;
+    grid-template-columns: 250px 250px 250px 320px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+address{
+    text-align: center;
+}
+footer h2{
+    padding-left: 10px;
+}
+dl{
+    text-align: center;
+}
+dt{
+    float: left;
+    width: 25%;
+    margin: 0;
+}
+dd{
+    float: left;
+    width: 75%;
+    margin: 0;
+}
+footer p{
+    text-align: center;
+    color:#06A816;
+    background-color: #ffffff;
+    position: relative;
+}
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
-/*@media screen and (min-width: 1440px){
-
-}
+/*@media screen and (min-width: 1440px) {
 header, footer{
     background-color: #06A816;
 }
@@ -285,8 +551,10 @@ header{
     color: #ffffff;
     padding-top: 15px;
     padding-bottom: 20px;
-}header p{
+}
+header p{
     font-style: italic;
+    text-align: left;
 }
 h3{
     font-size: 1.25em;
@@ -298,6 +566,7 @@ h1{
     padding-bottom: 20px;
     padding-left: 10px;
     text-shadow: 2px 2px #000000;
+    text-align: left;
 }
 h2{
     font-size: 1.75em;
@@ -353,5 +622,5 @@ footer p{
     color:#06A816;
     background-color: #ffffff;
     position: relative;
-
+}
 }*/
