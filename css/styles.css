@@ -395,7 +395,7 @@ img{
 figcaption{
     position: relative;
     bottom: 160px;
-    left: 80px;
+    left: 150px;
     text-align: center; 
     color: #ffffff;
     background-color: #000000;
@@ -414,11 +414,12 @@ h1,h2, h3{
 header{
     color: #ffffff;
     padding-top: 15px;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    text-align: left;  
 }
 header p{
     font-style: italic;
-    right: 500px;
+    text-align: left;
 }
 h3{
     font-size: 1.25em;
@@ -488,7 +489,7 @@ footer p{
 }
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
-/*@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
 header, footer{
     background-color: #06A816;
 }
@@ -623,4 +624,4 @@ footer p{
     background-color: #ffffff;
     position: relative;
 }
-}*/
+}
