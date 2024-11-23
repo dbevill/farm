@@ -618,6 +618,7 @@ dt{
     float: left;
     width: 25%;
     margin: 0;
+    padding-right: 5px;
 }
 dd{
     float: left;
