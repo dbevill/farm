@@ -68,6 +68,12 @@ html{
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 428px){
+    body{
+        font-family: "Habibi";
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     header, footer{
         background-color: #06A816;
     }
@@ -120,12 +126,6 @@ html{
         width: 140px;
         height: 40px;
         padding-top: 10px;
-    }
-    body{
-        font-family: "Habibi";
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
     }
     h1,h2, h3{
         font-family: "Irish Grover";
@@ -211,6 +211,12 @@ html{
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 834px){  
+body{
+    font-family: "Habibi";
+    width: 834px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 header, footer{
     background-color: #06A816;
 }
@@ -261,10 +267,6 @@ figcaption{
     width: 140px;
     height: 40px;
     padding-top: 10px;
-}
-body{
-    font-family: "Habibi";
-    width: 100%;
 }
 h1,h2, h3{
     font-family: "Irish Grover";
@@ -351,6 +353,12 @@ footer p{
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 1280px){
+body{
+    font-family: "Habibi";
+    width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 header, footer{
     background-color: #06A816;
 }
@@ -404,10 +412,6 @@ figcaption{
     height: 40px;
     padding-top: 10px;
 }
-body{
-    font-family: "Habibi";
-    width: 100%;
-}
 h1,h2, h3{
     font-family: "Irish Grover";
 }
@@ -416,6 +420,8 @@ header{
     padding-top: 15px;
     padding-bottom: 20px;
     text-align: left;  
+    display: grid;
+    grid-template-columns: 1fr;
 }
 header p{
     font-style: italic;
@@ -490,6 +496,10 @@ footer p{
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media screen and (min-width: 1440px) {
+body{
+    font-family: "Habibi";
+    width: 1440px;
+}
 header, footer{
     background-color: #06A816;
 }
@@ -541,10 +551,6 @@ figcaption{
     height: 40px;
     padding-top: 10px;
 }
-body{
-    font-family: "Habibi";
-    width: 100%;
-}
 h1,h2, h3{
     font-family: "Irish Grover";
 }
@@ -593,7 +599,7 @@ P{
 #businessinfo{
     display: grid;
     color: #ffffff;
-    grid-template-columns: 250px 250px 250px 350px;
+    grid-template-columns: 250px 250px 250px 250px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
